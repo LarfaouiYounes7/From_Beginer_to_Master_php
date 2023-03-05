@@ -5,3 +5,11 @@
 	+ include auth with bootstrap : php artisan ui bootstrap --auth
 	+ create users table : php artisan migrate
 	+ mix CSSwithJS with Laravel Mix : npm install , npm run dev
+
+   -Change Url
+	+ <a href="{{ route('school') }}">{{ __('Another Page') }}</a>
+	+ Route::get("/url" , function(){} )->name("school")
+	
+	route('') defines the route name
+	"url" defines the url you want 
+	function defines the action you want inside that url
