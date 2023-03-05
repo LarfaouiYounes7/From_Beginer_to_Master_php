@@ -20,3 +20,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/school', function(){
+    return view("schools.index");
+})->name('school');
+
+Route::get('/language', function(){
+    return view("languages.index");
+})->name('language');

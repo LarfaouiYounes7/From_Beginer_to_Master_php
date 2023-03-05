@@ -6,9 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header text-center">
-                        <span class ="text-success">
-                        SCHOOL TABLE MANAGEMENT
-                        </span>
+
                         <span class ="text-danger">
                          LANGUAGE E-LEARNING
                         </span>
