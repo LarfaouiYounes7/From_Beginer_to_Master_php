@@ -1,4 +1,4 @@
-"my notes in file" 
+"my notes in file"  //notice that i will work step by step 
 
    -Authentification
 	+ donwload package : composer require laravel/ui
